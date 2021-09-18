@@ -14,7 +14,7 @@ ___
 ## :rocket: Iniciando projeto
 
 - Instale as dependecias:
-
+ 
 ```bash
 npm install
 # or
@@ -33,7 +33,7 @@ yarn dev
 
 <h3>Desktop</h3>
 <div justify="center">
-  <img src="./public/images/image1.png" width="100%" >
+  <img src="./public/images/image1.png" width="100%"  >
 </div>
 
 
