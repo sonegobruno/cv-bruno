@@ -9,11 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@chakra-ui/react": "^1.6.5",
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "dom-to-image": "^2.6.0",
+    "framer-motion": "^4.1.17",
+    "jspdf": "^2.3.1",
     "next": "11.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0"
   },
   "devDependencies": {
+    "@types/dom-to-image": "^2.6.3",
     "eslint": "7.32.0",
     "eslint-config-next": "11.0.1"
   }
