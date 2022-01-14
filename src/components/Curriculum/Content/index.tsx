@@ -28,7 +28,7 @@ export function Content() {
             subTitle: 'KNN Idiomas, Paraisópolis - MG',
         },
         {
-            title: 'Ignite (Incompleto)',
+            title: 'Ignite (Completo) | 2022',
             subTitle: 'Este curso é uma atualização do GoStack',
         },
     ];
@@ -61,7 +61,7 @@ export function Content() {
             maxH="990px" 
             overflow="hidden"
         >
-            <Stack spacing="6">
+            <Stack spacing="6" w="100%">
                 <CardInformation 
                     icon={FaUser} 
                     title="Sobre mim" 

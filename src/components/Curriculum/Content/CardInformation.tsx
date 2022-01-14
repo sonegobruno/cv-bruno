@@ -9,10 +9,10 @@ interface Props {
 
 export function CardInformation({title, description, icon}: Props) {
     return (
-        <Box>
-            <Flex align="center">
+        <Box w="100%">
+            <Flex align="center" w="100%">
                 <CustomIcon icon={icon}/>
-                <Text fontSize="xl" fontWeight="bold" ml="2">{title}</Text>
+                <Text fontSize="xl" fontWeight="bold" ml="2" w="100%">{title}</Text>
             </Flex>
             <Flex mt="3">
                 <Text lineHeight="5" fontSize="md" color="gray.700">

@@ -33,7 +33,7 @@ export function WrapperInformation({ ...rest }: Props) {
 
             <WrapperDescriptionInformation icon={RiPhoneFill} description="(35) 98439-6313"/>
             <WrapperDescriptionInformation icon={RiMailSendLine} description="sonego.bruno@gmail.com"/>
-            <WrapperDescriptionInformation icon={FaGithub} description="https://github.com/sonegobruno"/>
+            <WrapperDescriptionInformation icon={FaGithub} description="/sonegobruno"/>
             
             <WrapperTitleInformation mt="26px">
                 Endereço
@@ -47,6 +47,7 @@ export function WrapperInformation({ ...rest }: Props) {
             <WrapperDescriptionInformation showListPointer description="React JS"/>
             <WrapperDescriptionInformation showListPointer description="Node JS"/>
             <WrapperDescriptionInformation showListPointer description="React Native"/>
+            <WrapperDescriptionInformation showListPointer description="Angular"/>
             <WrapperDescriptionInformation showListPointer description="Ionic"/>
             <WrapperDescriptionInformation showListPointer description="Experiência com comandos GIT"/>
             <WrapperDescriptionInformation showListPointer description="SQL"/>
@@ -54,10 +55,10 @@ export function WrapperInformation({ ...rest }: Props) {
             <WrapperTitleInformation mt="26px">
                 Hobbies
             </WrapperTitleInformation>
-            <WrapperDescriptionInformation showListPointer description="Ouvir música"/>
-            <WrapperDescriptionInformation showListPointer description="Viajar"/>
-            <WrapperDescriptionInformation showListPointer description="Ver filmes e séries"/>
-            <WrapperDescriptionInformation showListPointer description="Programar"/>
+            <WrapperDescriptionInformation showListPointer description="Programação"/>
+            <WrapperDescriptionInformation showListPointer description="Música"/>
+            <WrapperDescriptionInformation showListPointer description="Viajens"/>
+            <WrapperDescriptionInformation showListPointer description="Cinema"/>
 
         </Flex>
     )
