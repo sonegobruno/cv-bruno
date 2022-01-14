@@ -9,7 +9,7 @@ import { ButtonGeneratorPDF } from "@/components/ButtonGeneratorPDF";
 export default function Home() {
 
   return (
-    <Flex align="center" justify="center">
+    <Flex align="center" justify="center" minW="800px" overflowX="auto">
 
       <ButtonGeneratorPDF 
         position="fixed"
