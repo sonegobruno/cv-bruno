@@ -30,7 +30,7 @@ export function ButtonGeneratorPDF({ ...rest }: Props) {
             size="md"
             onClick={capture}
             colorScheme="red"
-
+            zIndex={1}
             borderRadius="50%"
             {...rest}
         >
