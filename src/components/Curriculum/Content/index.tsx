@@ -35,10 +35,6 @@ export function Content() {
 
     const experience = [
         {
-            title: 'Delphi Automotive Systems do Brasil LTDA 2015',
-            subTitle: 'Operador de Produção (Chicotes Automotivos)',
-        },
-        {
             title: 'Pro Eletronic 2016 | 2017',
             subTitle: 'Auxiliar de Produção (Teste / Retrabalho de produtos não conformes)',
         },
@@ -47,7 +43,11 @@ export function Content() {
             subTitle: 'Analista de suporte técnico',
         },
         {
-            title: 'B2ML 2020 | atualmente no cargo',
+            title: 'B2ML 2020 | 2021',
+            subTitle: 'Analista de sistemas',
+        },
+        {
+            title: 'Bionexo 2021 | atualmente no cargo',
             subTitle: 'Analista de sistemas',
         }
     ]
@@ -60,6 +60,7 @@ export function Content() {
             minH="990px" 
             maxH="990px" 
             overflow="hidden"
+            bg="gray.300"
         >
             <Stack spacing="6" w="100%">
                 <CardInformation 
